@@ -1,0 +1,71 @@
+
+
+body{
+    direction: rtl;
+    background-color: #eee!important;
+}
+.parent .container {
+    margin-top: 40px;
+    margin-bottom: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 36px 5px;
+    padding-left: 75px;
+}
+.parent .head {margin-bottom: 27px;}
+
+.parent .col-form-label {font-size: 17px!important;}
+
+.parent .form-check-label {margin-right: 5px;}
+
+.parent .btn{
+    padding: .375rem 36px!important;
+    font-size: 20px!important;
+    margin-left: 409px!important;
+    margin-top: 53px!important;
+}
+
+/***********************************************************/
+.notification {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: white;
+    width: 355px;
+    padding: 10px;
+    padding-top: 1px;
+    border: 1px solid #80808040;
+    border-left: 4px solid #00800091;
+    transition: all 0.9s ease-in-out;
+}
+.hidden{right: -355px;}
+
+.notification #close {
+    font-size: 24px;
+    margin-left: 201px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.notification h6 {margin-top: 11px;font-weight: 500;}
+
+.notification p {
+    margin-top: 14px;
+    width: 294px;
+    margin-left: 16px;
+}
+.notification .fa{color: green;margin-top: 14px;}
+/**********************************************************************/
+
+.none{
+    display: none;
+}
+#check {
+    color: #d73038;
+    text-align: right;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+/*.is-invalid{
+
+}
+*/
